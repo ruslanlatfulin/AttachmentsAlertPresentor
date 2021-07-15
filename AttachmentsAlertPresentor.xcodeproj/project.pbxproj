@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"AttachmentsAlertPresentor::AttachmentsAlertPresentorPackageTests::ProductTarget" /* AttachmentsAlertPresentorPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_30 /* Build configuration list for PBXAggregateTarget "AttachmentsAlertPresentorPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_33 /* PBXTargetDependency */,
+			);
+			name = AttachmentsAlertPresentorPackageTests;
+			productName = AttachmentsAlertPresentorPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BC3198B6269DBD34005DACF8 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198A6269DBD34005DACF8 /* Array+Extensions.swift */; };
+		BC3198B7269DBD34005DACF8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198A7269DBD34005DACF8 /* UIView+Extensions.swift */; };
+		BC3198B8269DBD34005DACF8 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198A8269DBD34005DACF8 /* UIAlertController+Extensions.swift */; };
+		BC3198B9269DBD34005DACF8 /* PhotoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198AA269DBD34005DACF8 /* PhotoLayout.swift */; };
+		BC3198BA269DBD34005DACF8 /* TelegramPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198AB269DBD34005DACF8 /* TelegramPickerViewController.swift */; };
+		BC3198BB269DBD34005DACF8 /* ItemWithCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198AD269DBD34005DACF8 /* ItemWithCamera.swift */; };
+		BC3198BC269DBD34005DACF8 /* AVPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198AE269DBD34005DACF8 /* AVPreviewView.swift */; };
+		BC3198BD269DBD34005DACF8 /* ItemWithPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198AF269DBD34005DACF8 /* ItemWithPhoto.swift */; };
+		BC3198BE269DBD34005DACF8 /* ItemWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198B0269DBD34005DACF8 /* ItemWithImage.swift */; };
+		BC3198BF269DBD34005DACF8 /* LikeButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198B1269DBD34005DACF8 /* LikeButtonCell.swift */; };
+		BC3198C0269DBD34005DACF8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198B3269DBD34005DACF8 /* Assets.swift */; };
+		BC3198C1269DBD34005DACF8 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198B4269DBD34005DACF8 /* ButtonType.swift */; };
+		BC3198C2269DBD34005DACF8 /* AttachmentSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198B5269DBD34005DACF8 /* AttachmentSource.swift */; };
+		OBJ_21 /* AttachmentsAlertPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AttachmentsAlertPresentor.swift */; };
+		OBJ_28 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_39 /* AttachmentsAlertPresentorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AttachmentsAlertPresentorTests.swift */; };
+		OBJ_41 /* AttachmentsAlertPresentor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AttachmentsAlertPresentor::AttachmentsAlertPresentor::Product" /* AttachmentsAlertPresentor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC3198A2269DBD14005DACF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "AttachmentsAlertPresentor::AttachmentsAlertPresentor";
+			remoteInfo = AttachmentsAlertPresentor;
+		};
+		BC3198A3269DBD15005DACF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "AttachmentsAlertPresentor::AttachmentsAlertPresentorTests";
+			remoteInfo = AttachmentsAlertPresentorTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"AttachmentsAlertPresentor::AttachmentsAlertPresentor::Product" /* AttachmentsAlertPresentor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AttachmentsAlertPresentor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AttachmentsAlertPresentor::AttachmentsAlertPresentorTests::Product" /* AttachmentsAlertPresentorTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AttachmentsAlertPresentorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3198A6269DBD34005DACF8 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		BC3198A7269DBD34005DACF8 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		BC3198A8269DBD34005DACF8 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		BC3198AA269DBD34005DACF8 /* PhotoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLayout.swift; sourceTree = "<group>"; };
+		BC3198AB269DBD34005DACF8 /* TelegramPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelegramPickerViewController.swift; sourceTree = "<group>"; };
+		BC3198AD269DBD34005DACF8 /* ItemWithCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemWithCamera.swift; sourceTree = "<group>"; };
+		BC3198AE269DBD34005DACF8 /* AVPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPreviewView.swift; sourceTree = "<group>"; };
+		BC3198AF269DBD34005DACF8 /* ItemWithPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemWithPhoto.swift; sourceTree = "<group>"; };
+		BC3198B0269DBD34005DACF8 /* ItemWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemWithImage.swift; sourceTree = "<group>"; };
+		BC3198B1269DBD34005DACF8 /* LikeButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButtonCell.swift; sourceTree = "<group>"; };
+		BC3198B3269DBD34005DACF8 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		BC3198B4269DBD34005DACF8 /* ButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		BC3198B5269DBD34005DACF8 /* AttachmentSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentSource.swift; sourceTree = "<group>"; };
+		OBJ_12 /* AttachmentsAlertPresentorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsAlertPresentorTests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* AttachmentsAlertPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsAlertPresentor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_41 /* AttachmentsAlertPresentor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3198A4269DBD34005DACF8 /* TelegramImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BC3198A5269DBD34005DACF8 /* Extensions */,
+				BC3198A9269DBD34005DACF8 /* Layouts */,
+				BC3198AB269DBD34005DACF8 /* TelegramPickerViewController.swift */,
+				BC3198AC269DBD34005DACF8 /* Views */,
+				BC3198B2269DBD34005DACF8 /* Helpers */,
+			);
+			path = TelegramImagePicker;
+			sourceTree = "<group>";
+		};
+		BC3198A5269DBD34005DACF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC3198A6269DBD34005DACF8 /* Array+Extensions.swift */,
+				BC3198A7269DBD34005DACF8 /* UIView+Extensions.swift */,
+				BC3198A8269DBD34005DACF8 /* UIAlertController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BC3198A9269DBD34005DACF8 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				BC3198AA269DBD34005DACF8 /* PhotoLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		BC3198AC269DBD34005DACF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC3198AD269DBD34005DACF8 /* ItemWithCamera.swift */,
+				BC3198AE269DBD34005DACF8 /* AVPreviewView.swift */,
+				BC3198AF269DBD34005DACF8 /* ItemWithPhoto.swift */,
+				BC3198B0269DBD34005DACF8 /* ItemWithImage.swift */,
+				BC3198B1269DBD34005DACF8 /* LikeButtonCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC3198B2269DBD34005DACF8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BC3198B3269DBD34005DACF8 /* Assets.swift */,
+				BC3198B4269DBD34005DACF8 /* ButtonType.swift */,
+				BC3198B5269DBD34005DACF8 /* AttachmentSource.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* AttachmentsAlertPresentorTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* AttachmentsAlertPresentorTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* AttachmentsAlertPresentorTests.swift */,
+			);
+			name = AttachmentsAlertPresentorTests;
+			path = Tests/AttachmentsAlertPresentorTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"AttachmentsAlertPresentor::AttachmentsAlertPresentor::Product" /* AttachmentsAlertPresentor.framework */,
+				"AttachmentsAlertPresentor::AttachmentsAlertPresentorTests::Product" /* AttachmentsAlertPresentorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_13 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* AttachmentsAlertPresentor */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* AttachmentsAlertPresentor */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* AttachmentsAlertPresentor.swift */,
+				BC3198A4269DBD34005DACF8 /* TelegramImagePicker */,
+			);
+			name = AttachmentsAlertPresentor;
+			path = Sources/AttachmentsAlertPresentor;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"AttachmentsAlertPresentor::AttachmentsAlertPresentor" /* AttachmentsAlertPresentor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "AttachmentsAlertPresentor" */;
+			buildPhases = (
+				OBJ_20 /* Sources */,
+				OBJ_22 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttachmentsAlertPresentor;
+			productName = AttachmentsAlertPresentor;
+			productReference = "AttachmentsAlertPresentor::AttachmentsAlertPresentor::Product" /* AttachmentsAlertPresentor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"AttachmentsAlertPresentor::AttachmentsAlertPresentorTests" /* AttachmentsAlertPresentorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_35 /* Build configuration list for PBXNativeTarget "AttachmentsAlertPresentorTests" */;
+			buildPhases = (
+				OBJ_38 /* Sources */,
+				OBJ_40 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_42 /* PBXTargetDependency */,
+			);
+			name = AttachmentsAlertPresentorTests;
+			productName = AttachmentsAlertPresentorTests;
+			productReference = "AttachmentsAlertPresentor::AttachmentsAlertPresentorTests::Product" /* AttachmentsAlertPresentorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"AttachmentsAlertPresentor::SwiftPMPackageDescription" /* AttachmentsAlertPresentorPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_24 /* Build configuration list for PBXNativeTarget "AttachmentsAlertPresentorPackageDescription" */;
+			buildPhases = (
+				OBJ_27 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttachmentsAlertPresentorPackageDescription;
+			productName = AttachmentsAlertPresentorPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "AttachmentsAlertPresentor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"AttachmentsAlertPresentor::AttachmentsAlertPresentor" /* AttachmentsAlertPresentor */,
+				"AttachmentsAlertPresentor::SwiftPMPackageDescription" /* AttachmentsAlertPresentorPackageDescription */,
+				"AttachmentsAlertPresentor::AttachmentsAlertPresentorPackageTests::ProductTarget" /* AttachmentsAlertPresentorPackageTests */,
+				"AttachmentsAlertPresentor::AttachmentsAlertPresentorTests" /* AttachmentsAlertPresentorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				BC3198B7269DBD34005DACF8 /* UIView+Extensions.swift in Sources */,
+				BC3198C1269DBD34005DACF8 /* ButtonType.swift in Sources */,
+				BC3198B9269DBD34005DACF8 /* PhotoLayout.swift in Sources */,
+				BC3198C0269DBD34005DACF8 /* Assets.swift in Sources */,
+				BC3198BC269DBD34005DACF8 /* AVPreviewView.swift in Sources */,
+				BC3198C2269DBD34005DACF8 /* AttachmentSource.swift in Sources */,
+				BC3198BD269DBD34005DACF8 /* ItemWithPhoto.swift in Sources */,
+				BC3198BF269DBD34005DACF8 /* LikeButtonCell.swift in Sources */,
+				BC3198BE269DBD34005DACF8 /* ItemWithImage.swift in Sources */,
+				OBJ_21 /* AttachmentsAlertPresentor.swift in Sources */,
+				BC3198BB269DBD34005DACF8 /* ItemWithCamera.swift in Sources */,
+				BC3198BA269DBD34005DACF8 /* TelegramPickerViewController.swift in Sources */,
+				BC3198B8269DBD34005DACF8 /* UIAlertController+Extensions.swift in Sources */,
+				BC3198B6269DBD34005DACF8 /* Array+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_28 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_39 /* AttachmentsAlertPresentorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "AttachmentsAlertPresentor::AttachmentsAlertPresentorTests" /* AttachmentsAlertPresentorTests */;
+			targetProxy = BC3198A3269DBD15005DACF8 /* PBXContainerItemProxy */;
+		};
+		OBJ_42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "AttachmentsAlertPresentor::AttachmentsAlertPresentor" /* AttachmentsAlertPresentor */;
+			targetProxy = BC3198A2269DBD14005DACF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AttachmentsAlertPresentor.xcodeproj/AttachmentsAlertPresentor_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = AttachmentsAlertPresentor;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = AttachmentsAlertPresentor;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AttachmentsAlertPresentor.xcodeproj/AttachmentsAlertPresentor_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = AttachmentsAlertPresentor;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = AttachmentsAlertPresentor;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AttachmentsAlertPresentor.xcodeproj/AttachmentsAlertPresentorTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = AttachmentsAlertPresentorTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AttachmentsAlertPresentor.xcodeproj/AttachmentsAlertPresentorTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = AttachmentsAlertPresentorTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_17 /* Build configuration list for PBXNativeTarget "AttachmentsAlertPresentor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_18 /* Debug */,
+				OBJ_19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "AttachmentsAlertPresentor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_24 /* Build configuration list for PBXNativeTarget "AttachmentsAlertPresentorPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_25 /* Debug */,
+				OBJ_26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_30 /* Build configuration list for PBXAggregateTarget "AttachmentsAlertPresentorPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_31 /* Debug */,
+				OBJ_32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_35 /* Build configuration list for PBXNativeTarget "AttachmentsAlertPresentorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_36 /* Debug */,
+				OBJ_37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
