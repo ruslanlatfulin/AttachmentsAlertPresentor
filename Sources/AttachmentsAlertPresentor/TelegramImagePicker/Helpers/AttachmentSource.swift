@@ -8,12 +8,12 @@
 
 import Foundation
 
-enum AttachmentSource {
+public enum AttachmentSource {
     case photoCamera
     case photoLibrary
     case document
     
-    var title: String {
+    public var title: String {
         switch self {
         case .photoCamera:  return "Сделать фото"
         case .photoLibrary: return "Выбрать из галереи"

@@ -9,13 +9,13 @@
 #if os(iOS)
 import UIKit
 
-enum ButtonType {
+public enum ButtonType {
     case photoCamera
     case photoLibrary
     case file
     case sendPhotos(count: Int)
     
-    var title: String {
+    public var title: String {
         switch self {
         case .photoCamera: return "Сделать фото"
         case .photoLibrary: return "Выбрать из галереи"
@@ -26,7 +26,7 @@ enum ButtonType {
         }
     }
     
-    var font: UIFont {
+    public var font: UIFont {
         switch self {
         case .sendPhotos: return UIFont.boldSystemFont(ofSize: 20)
         default: return UIFont.systemFont(ofSize: 20) }
