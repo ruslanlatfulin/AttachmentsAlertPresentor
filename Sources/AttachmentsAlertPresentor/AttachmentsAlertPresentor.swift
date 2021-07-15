@@ -23,7 +23,7 @@ public class AttachmentAlertPresentor: NSObject {
     
     var photoChooseCompletion: (([URL]) -> Void)?
     
-    func chooseAttachments(photoChooseCompletion: @escaping ([URL]) -> Void) {
+    public func chooseAttachments(photoChooseCompletion: @escaping ([URL]) -> Void) {
         self.photoChooseCompletion = photoChooseCompletion
         let alertController = UIAlertController(style: .actionSheet)
         alertController.addTelegramPicker(self, attachmentSources)
@@ -106,13 +106,13 @@ public class AttachmentAlertPresentor: NSObject {
 }
 
 extension AttachmentAlertPresentor: UIDocumentPickerDelegate {
-    func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
+    public func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
         photoChooseCompletion?(urls)
     }
 }
 
 extension AttachmentAlertPresentor: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+    public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if #available(iOS 11.0, *) {
             if let url = info[.imageURL] as? URL {
                 photoChooseCompletion?([url])
