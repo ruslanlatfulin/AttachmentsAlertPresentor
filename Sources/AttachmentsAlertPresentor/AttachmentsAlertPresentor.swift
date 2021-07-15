@@ -5,7 +5,7 @@ import AVKit
 import MobileCoreServices
 import Photos
 
-class AttachmentAlertPresentor: NSObject {
+public class AttachmentAlertPresentor: NSObject {
     
     override init() { }
     
