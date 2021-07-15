@@ -34,7 +34,7 @@
 		BC3198C0269DBD34005DACF8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198B3269DBD34005DACF8 /* Assets.swift */; };
 		BC3198C1269DBD34005DACF8 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198B4269DBD34005DACF8 /* ButtonType.swift */; };
 		BC3198C2269DBD34005DACF8 /* AttachmentSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3198B5269DBD34005DACF8 /* AttachmentSource.swift */; };
-		OBJ_21 /* AttachmentsAlertPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AttachmentsAlertPresentor.swift */; };
+		OBJ_21 /* AttachmentAlertPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AttachmentAlertPresentor.swift */; };
 		OBJ_28 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_39 /* AttachmentsAlertPresentorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AttachmentsAlertPresentorTests.swift */; };
 		OBJ_41 /* AttachmentsAlertPresentor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AttachmentsAlertPresentor::AttachmentsAlertPresentor::Product" /* AttachmentsAlertPresentor.framework */; };
@@ -75,7 +75,7 @@
 		BC3198B5269DBD34005DACF8 /* AttachmentSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentSource.swift; sourceTree = "<group>"; };
 		OBJ_12 /* AttachmentsAlertPresentorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsAlertPresentorTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* AttachmentsAlertPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsAlertPresentor.swift; sourceTree = "<group>"; };
+		OBJ_9 /* AttachmentAlertPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentAlertPresentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +175,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -183,7 +183,6 @@
 				OBJ_10 /* Tests */,
 				OBJ_13 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -197,7 +196,7 @@
 		OBJ_8 /* AttachmentsAlertPresentor */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* AttachmentsAlertPresentor.swift */,
+				OBJ_9 /* AttachmentAlertPresentor.swift */,
 				BC3198A4269DBD34005DACF8 /* TelegramImagePicker */,
 			);
 			name = AttachmentsAlertPresentor;
@@ -270,7 +269,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -297,7 +296,7 @@
 				BC3198BD269DBD34005DACF8 /* ItemWithPhoto.swift in Sources */,
 				BC3198BF269DBD34005DACF8 /* LikeButtonCell.swift in Sources */,
 				BC3198BE269DBD34005DACF8 /* ItemWithImage.swift in Sources */,
-				OBJ_21 /* AttachmentsAlertPresentor.swift in Sources */,
+				OBJ_21 /* AttachmentAlertPresentor.swift in Sources */,
 				BC3198BB269DBD34005DACF8 /* ItemWithCamera.swift in Sources */,
 				BC3198BA269DBD34005DACF8 /* TelegramPickerViewController.swift in Sources */,
 				BC3198B8269DBD34005DACF8 /* UIAlertController+Extensions.swift in Sources */,
