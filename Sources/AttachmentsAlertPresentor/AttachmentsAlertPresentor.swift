@@ -5,7 +5,7 @@ import AVKit
 import MobileCoreServices
 import Photos
 
-class AttachmentsAlertPresentor: NSObject {
+class AttachmentAlertPresentor: NSObject {
     
     override init() { }
     
@@ -105,13 +105,13 @@ class AttachmentsAlertPresentor: NSObject {
     }
 }
 
-extension AttachmentsAlertPresentor: UIDocumentPickerDelegate {
+extension AttachmentAlertPresentor: UIDocumentPickerDelegate {
     func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
         photoChooseCompletion?(urls)
     }
 }
 
-extension AttachmentsAlertPresentor: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+extension AttachmentAlertPresentor: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if #available(iOS 11.0, *) {
             if let url = info[.imageURL] as? URL {
@@ -135,7 +135,7 @@ extension AttachmentsAlertPresentor: UIImagePickerControllerDelegate, UINavigati
     }
 }
 
-extension AttachmentsAlertPresentor: TelegramPickerDelegate {
+extension AttachmentAlertPresentor: TelegramPickerDelegate {
     func telegramPicker(didTakePhotoAt controller: TelegramPickerViewController) {
         guard let viewController = self.viewController else { return }
         guard AVCaptureDevice.authorizationStatus(for: .video) == .authorized else { return }
